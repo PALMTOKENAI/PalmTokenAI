@@ -25,12 +25,13 @@ How to get Google Cloud access token
 
 Open https://console.cloud.google.com/ , Log In
 
-Create a billing account, add a payment method (no charges)
+Create a billing account, add a payment method (no charges), create a project, remember it's name
 
-Search for VERTEX AI, and press Enabli API
+Search for VERTEX AI, and press Enable API
 
 Open https://developers.google.com/oauthplayground/
 
+Open deploypalm.ts. find in file "appname" and "us-central1". Replace it with your own app name and region
 
 ->Step 1- Search Vertex AI API V1, click, and tick first option, press Authorize APIs
 
