@@ -80,7 +80,7 @@ async function generateERC20Contract(name: string) {
 
   try {
     const response = await axios.post(
-      "https://us-central1-aiplatform.googleapis.com/v1/projects/voice-381501/locations/us-central1/publishers/google/models/chat-bison-32k:predict",
+      "https://us-central1-aiplatform.googleapis.com/v1/projects/appname/locations/us-central1/publishers/google/models/chat-bison-32k:predict",
       data,
       { headers: headers }
     );
@@ -237,7 +237,7 @@ async function getERC20Parameters() {
   //make request for supply
   try {
     const responseSupply = await axios.post(
-      "https://us-central1-aiplatform.googleapis.com/v1/projects/voice-381501/locations/us-central1/publishers/google/models/chat-bison-32k:predict",
+      "https://us-central1-aiplatform.googleapis.com/v1/projects/appname/locations/us-central1/publishers/google/models/chat-bison-32k:predict",
       dataSupply,
       { headers: headers }
     );
@@ -254,7 +254,7 @@ async function getERC20Parameters() {
   //make request for name
   try {
     const responseName = await axios.post(
-      "https://us-central1-aiplatform.googleapis.com/v1/projects/voice-381501/locations/us-central1/publishers/google/models/chat-bison-32k:predict",
+      "https://us-central1-aiplatform.googleapis.com/v1/projects/appname/locations/us-central1/publishers/google/models/chat-bison-32k:predict",
       dataName,
       { headers: headers }
     );
@@ -293,7 +293,7 @@ async function getERC20Parameters() {
 
   try {
     const responseDescription = await axios.post(
-      "https://us-central1-aiplatform.googleapis.com/v1/projects/voice-381501/locations/us-central1/publishers/google/models/chat-bison-32k:predict",
+      "https://us-central1-aiplatform.googleapis.com/v1/projects/appname/locations/us-central1/publishers/google/models/chat-bison-32k:predict",
       dataDescription,
       { headers: headers }
     );
@@ -391,7 +391,7 @@ async function getERC20Parameters() {
   //request for symbol
   try {
     const responseSymbol = await axios.post(
-      "https://us-central1-aiplatform.googleapis.com/v1/projects/voice-381501/locations/us-central1/publishers/google/models/chat-bison-32k:predict",
+      "https://us-central1-aiplatform.googleapis.com/v1/projects/appname/locations/us-central1/publishers/google/models/chat-bison-32k:predict",
       dataSymbol,
       { headers: headers }
     );
