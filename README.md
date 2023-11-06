@@ -4,7 +4,7 @@
 
 -Node.js
 
--Vertex AI Google Cloud AccessToken
+-Google Cloud Console AccessToken
 
 -DallE Key (OpenAI)
 
