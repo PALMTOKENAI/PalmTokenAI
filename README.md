@@ -12,13 +12,19 @@ Clone the repository.
 run ```npm install```
 
 Copy ```.env.example``` and rename it to ```.env```
+
 Modify PALM_API_KEY,DALLEE_API_KEY, Private key and Rpc url
 
 How to get Google Cloud access token
+
 Open https://console.cloud.google.com/ , Log In
+
 Create a billing account, add a payment method (no charges)
+
 Search for VERTEX AI, and press Enabli API
+
 Open https://developers.google.com/oauthplayground/
+
 
 ->Step 1- Search Vertex AI API V1, click, and tick first option, press Authorize APIs
 
