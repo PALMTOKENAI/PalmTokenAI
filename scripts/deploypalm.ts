@@ -258,8 +258,7 @@ async function getERC20Parameters() {
       dataName,
       { headers: headers }
     );
-    nameGivenByAI = "GalacticGuppy"
-    //nameGivenByAI = responseName.data.predictions[0].candidates[0].content;
+    nameGivenByAI = responseName.data.predictions[0].candidates[0].content;
     parameters.push(nameGivenByAI);
   } catch (error) {
     console.error("Error making request:", error);
