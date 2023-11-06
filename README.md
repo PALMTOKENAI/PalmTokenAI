@@ -1,12 +1,18 @@
 ### PALM AI Token Launcher
 
 ### What do you need?
+
 -Node.js
+
 -Vertex AI Google Cloud AccessToken
+
 -DallE Key (OpenAI)
+
 -Hardhat development environment
 
+
 ### Setup
+
 Clone the repository.
 
 run ```npm install```
